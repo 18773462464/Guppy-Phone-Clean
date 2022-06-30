@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F6F7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/col_4DE3C2">
+
+        <ImageView
+            android:id="@+id/toolbar_left_img"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:src="@mipmap/ic_exit" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="Camera"
+            android:textColor="#ffffffff"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/ic_clear_listexpandable" />
+
+        <TextView
+            android:id="@+id/text_show"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Camera"
+            android:textColor="#838383"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/text_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:text="All"
+            android:textColor="#656565"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/img_allcheck"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginEnd="6dp"
+            android:padding="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/img_check_all_back" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/camera_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="3" />
+
+    <ImageView
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:src="@mipmap/color_shape_delete_btn" />
+
+    <FrameLayout
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.guppy.phoneclean.ad.Banner
+            android:visibility="gone"
+            android:id="@+id/ad_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.guppy.phoneclean.ad.PangleBanner
+            android:id="@+id/pangle_ad"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

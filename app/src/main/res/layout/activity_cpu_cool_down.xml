@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/speed_gif_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:background="@mipmap/ic_cpu_bg" />
+
+            <ImageView
+                android:id="@+id/speed_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:src="@mipmap/ic_clear_cpucooldown" />
+
+            <TextView
+                android:id="@+id/img_cpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:text="CPU"
+                android:textSize="13sp"
+                android:textColor="@color/white"/>
+
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/execute_name"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="#ffffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/execute_status"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scanning..."
+            android:textColor="#ffffffff"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <com.guppy.phoneclean.widget.CustomSnowView
+        android:id="@+id/xue_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <com.guppy.phoneclean.ad.Banner
+            android:visibility="gone"
+            android:id="@+id/ad_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <com.guppy.phoneclean.ad.PangleBanner
+            android:id="@+id/pangle_ad"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</FrameLayout>

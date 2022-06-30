@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name" translatable="false">Guppy Phone Clean</string>
+    <string name="facebook_app_id" translatable="false"></string>
+
+    <string name="clear">clear</string>
+    <string name="lost">Lose weight</string>
+    <string name="mobile_booster">Mobile Booster</string>
+    <string name="app_management">APP Management</string>
+    <string name="cpu_cool_down">CPU Cool Down</string>
+    <string name="picture_cleaning">Picture Cleaning</string>
+    <string name="cache_cleaning">Garbage Cleaning</string>
+    <string name="clearing_background_software">Clearing background software.</string>
+    <string name="view_uninstalled_apps">View uninstalled apps.</string>
+    <string name="lower_the_CPU_temperature">lower the CPU temperature.</string>
+    <string name="view_cached_thumbnails">View cached thumbnails.</string>
+    <string name="app_junk_cache">App junk cache.</string>
+    <string name="loading">Loading&#8230;</string>
+
+    <string name="notification_permission">Notification permission</string>
+    <string name="battery_optimization">Battery optimization</string>
+    <string name="privacy_agreement">Privacy Agreement</string>
+    <string name="about_more">About more</string>
+
+    <string name="string_usable">Usable</string>
+    <string name="string_user_memory">Used:</string>
+    <string name="string_remaining_memory">Remaining:</string>
+    <string name="complete">Complete</string>
+    <string name="string_clearup_size">Clean up for you:</string>
+    <string name="string_ready_scan">Ready to scanning...</string>
+    <string name="string_ptimized">Optimizing:</string>
+    <string name="string_show_optimizing">Optimizing...</string>
+    <string name="string_scanning">Scanning:</string>
+    <string name="tring_show_scaning">Scanning...</string>
+    <string name="string_free_memory">Memory has been freed for you %d M</string>
+
+
+    <string name="string_free_complete">Scan optimization complete.</string>
+    <string name="string_read_cache">Read and write to query local junk data</string>
+    <string name="string_check_temperature">Checking the temperature of the phone...</string>
+    <string name="string_cooldown_temperature">Cooling the CPU for mobile phones...</string>
+    <string name="string_completed">Completed</string>
+    <string name="string_temperature">Current Temperature %d ℃</string>
+    <string name="string_stoptime_consuming">Try to stop some time-consuming operations</string>
+    <string name="string_cooled">Lower for you -%d ℃</string>
+    <string name="string_mobile_space">Mobile space</string>
+    <string name="system_storage">System storage</string>
+    <string name="string_name_bar_photo">Photo</string>
+    <string name="string_name_bar_video">Video</string>
+    <string name="string_name_bar_music">Music</string>
+    <string name="string_name_bar_document">Document</string>
+    <string name="string_name_bar_apk">APK</string>
+    <string name="string_name_appication_manger">Application Manger</string>
+    <string name="string_name_user_application">User application</string>
+    <string name="string_name_system_application">System applications</string>
+    <string name="string_tip_title">Whether to delete  files？</string>
+    <string name="string_app_tip_title">Whether to uninstall APP</string>
+    <string name="string_tip_text">Please operate with caution, you will not be able to recover them.</string>
+
+    <string name="string_over_open_speed">Turn on device acceleration...</string>
+    <string name="string_over_open_cool_down">Turn on the CPU to cool down...</string>
+    <string name="string_over_open_battery">Turn on system battery management...</string>
+    <string name="string_over_open_antivirus">Turn on virus scan...</string>
+    <string name="tring_over_open_cache">Turn on cache cleaning...</string>
+    <string name="string_over_open_main">Open the main interface...</string>
+
+    <string name="string_finished_battery">Finished charging</string>
+    <string name="string_charging_battery">charging...</string>
+    <string name="string_low_battery">The battery is low, please charge it as soon as possible.</string>
+    <string name="string_tip_needopen">It has been detected that you are not currently turning on battery optimization, do you need to turn it on?</string>
+
+    <string name="junk_clean">Garbage Cleanup</string>垃圾清理
+    <string name="process_clean">Process Cleanup</string>进程清理
+    <string name="apk_clean">Useless installation package</string>无用安装包
+    <string name="tmp_clean">Temporary Files</string>临时文件
+    <string name="log_clean">log File</string>日志文件
+    <string name="cache_clean">Cache Garbage</string>缓存垃圾
+    <string name="system_cache">System Cache</string>系统缓存
+    <string name="title_activity_junk_clean">Recommended Cleaning</string>建议清理
+    <string name="do_junk_clean">Clean up</string>清理
+    <string name="byte_short">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilo_byte_short">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="mega_byte_short">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="giga_byte_short">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="tera_byte_short">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="peta_byte_short">PB</string>
+    <string name="clean_file_size_suffix">%1$s%2$s</string>
+
+    <string name="string_vip_open">VIP has been successfully activated</string>
+    <string name="string_vip_close">VIP is not activated</string>
+    <string name="string_subscription">During the subscription period, you can enjoy all the features of this product and enjoy the privilege of removing ads. Subscriptions automatically renew after each period unless you cancel 24 hours in advance. You can manage and turn off automatic subscriptions in your account settings on the Google Play Store. Subscribing members will be charged in the corresponding cycle (monthly half year and full year). After confirming the payment, the payment will be completed by Google Play.</string>
+    <string name="vip_privileges">VIP can get the following privileges</string>
+    <string name="self_check">Self Check</string>
+    <string name="auto_clean">Auto Clean</string>
+    <string name="file_management">File Management</string>
+    <string name="ad_free">AD Free</string>
+    <string name="string_vip_tip_dec_01">One month automatic renewal, the renewal fee is:</string>
+    <string name="string_vip_tip_dec_02">Three-month automatic renewal, the renewal fee is:</string>
+    <string name="string_vip_tip_dec_03">Automatic renewal for six months, the renewal fee is:</string>
+    <string name="string_vip_tip_dec_04">One-year automatic renewal, the renewal fee is:</string>
+    <string name="string_vip_count_01">1 Month</string>
+    <string name="string_vip_count_02">3 Month</string>
+    <string name="string_vip_count_03">6 Month</string>
+    <string name="string_vip_count_04">1 Year</string>
+
+    <string name="ad_attribution">Ad</string>
+</resources>

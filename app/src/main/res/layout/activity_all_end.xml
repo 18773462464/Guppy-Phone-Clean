@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    tools:context=".activity.AllEndActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/all_end_bg"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/iv_exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_exit"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="15dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/iv_complete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:src="@mipmap/ic_complete"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/complete"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"/>
+                        <TextView
+                            android:id="@+id/tv_tip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/complete"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/ad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <ImageView
+                android:id="@+id/img_ad"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:padding="25sp"
+                android:src="@mipmap/img_ad"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_go1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/all_end_go_bg"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:padding="15dp"
+                android:layout_marginEnd="15dp">
+
+                <ImageView
+                    android:id="@+id/iv_go1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_speed"/>
+
+                <TextView
+                    android:id="@+id/tv_go1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/iv_go1"
+                    android:layout_centerVertical="true"
+                    android:text="@string/clearing_background_software"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_go"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    app:tint="@color/col_54DEBE"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_go2"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/all_end_go_bg"
+                android:padding="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp">
+
+                <ImageView
+                    android:id="@+id/iv_go2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_speed"/>
+
+                <TextView
+                    android:id="@+id/tv_go2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/black"
+                    android:layout_toEndOf="@id/iv_go2"
+                    android:layout_centerVertical="true"
+                    android:text="@string/clearing_background_software"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_go"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    app:tint="@color/col_54DEBE"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

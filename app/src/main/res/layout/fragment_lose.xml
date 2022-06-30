@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ad">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_top_bg"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Guppy \nPhone Clean"
+                    android:textColor="@color/white"
+                    android:textAllCaps="true"
+                    android:textSize="13sp" />
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_lose_circle"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/text_progress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/col_54DEBE"/>
+
+                        <TextView
+                            android:id="@+id/text_progress_remaining"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="60"
+                            android:textColor="@color/col_54DEBE"
+                            android:textSize="9sp" />
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIconTint="@null"
+                app:tabIconTintMode="src_over"
+                app:tabIndicatorColor="#00FFFFFF"
+                app:tabIndicatorFullWidth="false"
+                app:tabIndicatorHeight="5dp"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/black"
+                app:tabTextAppearance="@style/AppTheme.TabLayout.TextAppearance"
+                app:tabTextColor="#989898" />
+            <com.guppy.phoneclean.widget.NoScrollViewPager
+                android:id="@+id/view_pagers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.guppy.phoneclean.ad.Banner
+            android:visibility="gone"
+            android:id="@+id/ad_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <com.guppy.phoneclean.ad.PangleBanner
+            android:id="@+id/pangle_ad"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</RelativeLayout>

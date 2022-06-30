@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear">首页</string>
+    <string name="lost">瘦身</string>
+    <string name="mobile_booster">设备提速</string>
+    <string name="app_management">应用管理</string>
+    <string name="cpu_cool_down">CPU降温</string>
+    <string name="picture_cleaning">照片清理</string>
+    <string name="cache_cleaning">垃圾清理</string>
+    <string name="clearing_background_software">清除后台软件</string>
+    <string name="view_uninstalled_apps">卸载不常用的应用程序</string>
+    <string name="lower_the_CPU_temperature">降低CPU温度</string>
+    <string name="view_cached_thumbnails">查看缓存的缩略图</string>
+    <string name="app_junk_cache">应用垃圾缓存</string>
+    <string name="loading">Loading&#8230;</string>
+
+    <string name="notification_permission">通知使用权限</string>
+    <string name="battery_optimization">电池优化</string>
+    <string name="privacy_agreement">隐私协议</string>
+    <string name="about_more">关于</string>
+
+    <string name="string_usable">可用:</string>
+    <string name="string_user_memory">已用:</string>
+    <string name="string_remaining_memory">剩余:</string>
+    <string name="complete">Complete</string>
+    <string name="string_clearup_size">为你清理：</string>
+    <string name="string_ready_scan">准备扫描...</string>
+    <string name="string_ptimized">优化:</string>
+    <string name="string_show_optimizing">优化中...</string>
+    <string name="string_scanning">扫描:</string>
+    <string name="tring_show_scaning">扫描中...</string>
+    <string name="string_free_memory">已为您释放内存 %d M</string>
+
+
+    <string name="string_free_complete">扫描优化完成</string>
+    <string name="string_read_cache">读写查询本地垃圾数据</string>
+    <string name="string_check_temperature">检查手机温度...</string>
+    <string name="string_cooldown_temperature">手机CPU散热...</string>
+    <string name="string_completed">Completed</string>
+    <string name="string_temperature">当前温度 %d ℃</string>
+    <string name="string_stoptime_consuming">尝试停止一些耗时的操作</string>
+    <string name="string_cooled">为您降低 -%d ℃</string>
+    <string name="string_mobile_space">Mobile space</string>
+    <string name="system_storage">系统存储</string>
+    <string name="string_name_bar_photo">照片</string>
+    <string name="string_name_bar_video">视频</string>
+    <string name="string_name_bar_music">音乐</string>
+    <string name="string_name_bar_document">文件</string>
+    <string name="string_name_bar_apk">安装包</string>
+    <string name="string_name_appication_manger">应用程序管理器</string>
+    <string name="string_name_user_application">用户应用</string>
+    <string name="string_name_system_application">系统应用</string>
+    <string name="string_tip_title">是否删除文件？</string>
+    <string name="string_app_tip_title">是否卸载APP</string>
+    <string name="string_tip_text">请谨慎操作，您将无法恢复它们.</string>
+
+    <string name="string_over_open_speed">开启设备加速...</string>
+    <string name="string_over_open_cool_down">打开 CPU 冷却...</string>
+    <string name="string_over_open_battery">打开系统电池管理...</string>
+    <string name="string_over_open_antivirus">开启病毒扫描...</string>
+    <string name="tring_over_open_cache">开启缓存清理...</string>
+    <string name="string_over_open_main">打开主界面...</string>
+
+    <string name="string_finished_battery">完成充电</string>
+    <string name="string_charging_battery">charging...</string>
+    <string name="string_low_battery">电池电量低，请尽快充电.</string>
+    <string name="string_tip_needopen">检测到您当前没有开启电池优化，是否需要开启?</string>
+
+    <string name="junk_clean">垃圾清理</string>垃圾清理
+    <string name="process_clean">进程清理</string>进程清理
+    <string name="apk_clean">无用安装包</string>
+    <string name="tmp_clean">临时文件</string>
+    <string name="log_clean">日志文件</string>
+    <string name="cache_clean">缓存垃圾</string>
+    <string name="system_cache">系统缓存</string>
+    <string name="title_activity_junk_clean">建议清理</string>
+    <string name="do_junk_clean">清理</string>
+    <string name="byte_short">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilo_byte_short">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="mega_byte_short">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="giga_byte_short">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="tera_byte_short">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="peta_byte_short">PB</string>
+    <string name="clean_file_size_suffix">%1$s%2$s</string>
+
+    <string name="string_vip_open">VIP已成功激活</string>
+    <string name="string_vip_close">VIP未激活</string>
+    <string name="string_subscription">在订阅期内，您可以享受该产品的所有功能，并享受去广告的特权。除非您提前 24 小时取消订阅，否则订阅会在每个周期后自动续订。您可以在 Google Play 商店的帐户设置中管理和关闭自动订阅。订阅会员将按相应的周期（半年月度和全年）收费。确认付款后，将通过 Google Play 完成付款。</string>
+    <string name="vip_privileges">VIP可以获得以下特权</string>
+    <string name="self_check">自检</string>
+    <string name="auto_clean">自动清洁</string>
+    <string name="file_management">文件管理</string>
+    <string name="ad_free">无广告</string>
+    <string name="string_vip_tip_dec_01">1个月自动续费，续订费用为：</string>
+    <string name="string_vip_tip_dec_02">三个月自动续订，续订费用为：</string>
+    <string name="string_vip_tip_dec_03">六个月自动续订，续订费用为：</string>
+    <string name="string_vip_tip_dec_04">一年自动续订，续订费用为：</string>
+    <string name="string_vip_count_01">1个月</string>
+    <string name="string_vip_count_02">3个月</string>
+    <string name="string_vip_count_03">6个月</string>
+    <string name="string_vip_count_04">1年</string>
+
+    <string name="ad_attribution">Ad</string>
+</resources>

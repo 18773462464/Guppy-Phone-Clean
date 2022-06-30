@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="15.67dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="9.67dp">
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_speed"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="15.33dp">
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile_booster"
+                android:textColor="@color/col_191A35"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/tv_describe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clearing_background_software"
+                android:textSize="12sp"
+                android:textColor="@color/col_7F7F7F"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@mipmap/ic_rv_line"/>
+
+</FrameLayout>

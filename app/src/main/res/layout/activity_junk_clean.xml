@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_junk_clean">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#32CDA7">
+
+        <ImageView
+            android:id="@+id/toolbar_left_img"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:src="@mipmap/ic_exit" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="@string/cache_cleaning"
+            android:textColor="#ffffffff"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/do_junk_clean"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_above="@id/ad"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/col_4294FB"
+        android:textColor="@android:color/white"
+        android:elevation="1dp"
+        android:text="@string/do_junk_clean" />
+
+    <ExpandableListView
+        android:id="@+id/junk_list"
+        android:layout_above="@id/do_junk_clean"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ExpandableListView>
+
+    <FrameLayout
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.guppy.phoneclean.ad.Banner
+            android:visibility="gone"
+            android:id="@+id/ad_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <com.guppy.phoneclean.ad.PangleBanner
+            android:id="@+id/pangle_ad"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</RelativeLayout>

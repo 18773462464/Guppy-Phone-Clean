@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#32CDA7</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="col_4294FB">#4294FB</color>
+    <color name="col_A2A2A2">#A2A2A2</color>
+    <color name="col_888888">#888888</color>
+    <color name="col_54DEBE">#54DEBE</color>
+    <color name="col_4DE3C2">#4DE3C2</color>
+    <color name="col_191A35">#191A35</color>
+    <color name="col_7F7F7F">#7F7F7F</color>
+</resources>
